@@ -6,10 +6,14 @@ import getters from './store/getters'
 
 Vue.use(Vuex)
 
-const store = new Vuex.Store({
-  modules: {
-    app,
-    //user
+export default new Vuex.Store({
+  state: {
+
   },
-  //getters
+  mutations: {
+
+  },
+  actions: {
+
+  }
 })
